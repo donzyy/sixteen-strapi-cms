@@ -1,4 +1,4 @@
-/* module.exports = () => ({}); */
+module.exports = () => ({});
 /* module.exports = ({ env }) => ({
     "vercel-deploy": {
       enabled: true,
@@ -12,7 +12,7 @@
     },
   }); */
 
-  module.exports = ({ env }) => ({
+  /* module.exports = ({ env }) => ({
     "vercel-deploy": {
       enabled: true,
       config: {
@@ -22,5 +22,5 @@
         roles: ["strapi-super-admin", "strapi-editor", "strapi-author"],
       },
     },
-  });
+  }); */
   
